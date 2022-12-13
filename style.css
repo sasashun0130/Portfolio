@@ -1,0 +1,234 @@
+*{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1{
+    font-size: 64px;
+    text-align: center;
+    padding-top: 320px;
+}
+
+p{
+    font-size: 14px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+header{
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5vw;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(255,255,255,0.8);
+}
+
+header p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header ul{
+    display: flex;
+    width: 100vw;
+    justify-content: end;
+}
+
+header li{
+    justify-items: auto;
+}
+
+header a{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 2vw;
+}
+
+.firstView{
+    background-image: url(images/suisai.png);
+    height: 800px;
+    background-size: cover;
+}
+
+.about{
+    padding-top: 80px;
+}
+
+.profile{
+    padding: 180px;
+}
+.profile h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+}
+.profile h3{
+    font-size: 24px;
+    margin-top: 50px;
+    letter-spacing: 0.1em;
+}
+.profile p{
+    font-size: 24px;
+    margin-top: 24px;
+    display: inline-block;
+}
+
+.profile img{
+    width: 450px;
+    height: 300px;
+}
+.profile .profile-text {
+    width: 500px;
+    float: left;
+    margin-left: 100px;
+}
+
+.favorite-contents{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.favorite{
+    text-align: center;
+    padding: 100px 180px 80px 180px;
+}
+
+.favorite h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    color: #000;
+    border-bottom: 3px solid rgb(0, 140, 255);
+    display: inline-block;
+}
+
+.favorite-content{
+    width: 350px;
+    padding: 80px;
+}
+
+.favorite-content img{
+    width: 200px;
+    height: 200px;
+}
+
+.favorite-content h3{
+    font-style: 24px;
+    font-size: 28px;
+    margin-top: 16px;
+}
+
+.favorite-content p{
+    font-style: 16px;
+    text-align: left;
+    margin-top: 32px;
+}
+
+.works{
+    padding: 180px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.works h2{
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    border-bottom: 3px solid rgb(0, 140, 255);
+    display: inline-block;
+}
+
+.work{
+    margin-top: 100px;
+}
+
+.works-content{
+    display: flex;
+    background-color: #e1f0fa;
+    padding: 40px;
+    margin-top: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    text-align: left;
+}
+
+.works-content img{
+    width: 320px;
+    height: 180px;
+}
+
+.works-content h3{
+    font-size: 28px;
+}
+
+.works-content span{
+    font-size: 16px;
+    margin-left: 16px;
+}
+
+.works-content p{
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.works-content .works-text{
+    padding: 32px;
+}
+
+.contact{
+    padding: 100px 380px 180px 380px ;
+    text-align: center;
+}
+
+.contact h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    border-bottom: 3px solid rgb(0, 140, 255);
+    display: inline-block;
+}
+
+.contact p{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 200%;
+    margin-top: 48px;
+    text-align: left;
+}
+
+.contact a{
+    width: 500px;
+    line-height: 80px;
+    display: inline-block;
+    border-radius: 16px;
+}
+
+.contact .sns{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .sns :hover{
+    transform: scale(1.05,1.05);
+    transition: 0.35s;
+}
+
+footer{
+    height: 60px;
+    background-color: #e1f0fa;
+    line-height: 60px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
